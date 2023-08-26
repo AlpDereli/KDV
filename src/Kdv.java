@@ -4,7 +4,7 @@ public class Kdv {
         Scanner take = new Scanner(System.in);
         System.out.println("Enter the price of the product: ");
         float f =  take.nextFloat();
-        float kdv = 0;
+        float kdv;
         if (f >= 1000)
         {
             kdv = 0.8f;
